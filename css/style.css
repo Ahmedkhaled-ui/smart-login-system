@@ -1,0 +1,85 @@
+body{
+background-color: rgb(255, 255, 255);
+}
+
+
+
+.home{
+height: 400px;
+}
+input{
+border: 1px gray solid;
+border-top: none !important;
+border-left: none !important;
+border-right: none !important;
+}
+.leftSite{
+background-image: linear-gradient(rgb(69, 125, 246) , rgb(71, 105, 169));
+
+}
+
+.sign{
+background-color: rgb(255, 255, 255);
+width: 500px;
+height: 500px;
+
+}
+
+.welcome{
+    background-color:rgb(89, 89, 226) ;
+width: 600px;
+height: 300px;
+}
+
+.size-alert{
+font-size: small;
+margin-bottom: 0;
+margin-top: -1rem;
+margin-left: -30%;
+padding-bottom: 0;
+}
+.size-alert-email{
+font-size: small;
+margin-bottom: 0;
+margin-top: -1rem;
+margin-left: -15%;
+padding-bottom: 0;
+}
+
+.popupSing{
+    background-color: rgba(0, 0, 0, 0.139);
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+} 
+.mesSign{
+    background-color: beige;
+width: 400px;
+height: 300px;
+
+}
+
+.sizeicon{
+font-size: 50px;
+}
+.close{
+    color: rgb(2, 0, 0);
+position: absolute;
+font-size: 20px;
+right: 15px;
+top: 15px;
+cursor: pointer;
+}
+
+
+#back{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}

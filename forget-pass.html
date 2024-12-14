@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="icon/all.min.css" />
+    <link rel="stylesheet" href="bt/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+ <div class="container  d-flex align-items-center justify-content-center vh-100">
+    <div class="  position-relative  sign shadow d-flex flex-column align-items-center">
+      <div class="email w-75 mt-3 text-center   ">
+        <h1 class="mb-5 pt-2 ">Change Password</h1>
+    <div class="">
+      <input
+      id="inputeEmailChangePass"
+        placeholder="Enter your E-mail"
+        type="text"
+        class="w-100 my-2 rounded-1 px-2 form-control  " />
+        <div class=" text-danger d-none   "><p class=""><i class="fa-solid fa-exclamation me-1"></i> "Enter The Correct Email"</p></div>
+    </div>
+
+      </div>
+  
+      <div id="showChangePass" class="pass w-100 d-none d-flex justify-content-center flex-column align-items-center">
+
+        <input id="ChangePass" placeholder=" New Password" class="w-75 mb-3 mt-5 form-control" type="password">
+        <div class="size-alert text-danger d-none">
+          <p class="">
+            <i class="fa-solid fa-exclamation me-1"></i>"you can not
+            use(@,#,$,%,^,&)
+          </p>
+        </div>
+        <input id="confirmChange" placeholder="Confirm Password" class="w-75 mb-3 form-control" type="password">
+        <div class="size-alert text-danger d-none">
+        <p class="">
+          <i class="fa-solid fa-exclamation me-1"></i>The password not match
+        </p>
+      </div>
+        <button id="btnSave" class="btn btn-outline-primary w-25 mt-3 ">Save</button>
+      </div>
+
+      <button id="btnconfirmEmail" class="btn btn-primary mt-2"> Confirm </button>
+<a id="back" class=" text-center text-decoration-none  fs-6" href="index.html"><i class="fa-solid fa-circle-arrow-left"></i> Back</a>
+    </div>
+ </div>
+
+
+    <script src="js/forgetPass.js"></script>
+  </body>
+</html>

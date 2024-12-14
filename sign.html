@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="icon/all.min.css" />
+    <link rel="stylesheet" href="bt/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div id="popupSing" class="popupSing d-none">
+        <div
+          class="mesSign position-relative d-flex flex-column justify-content-center align-items-center">
+          <i id="closePopup" class="fa-solid fa-xmark close"></i>
+          <i class="fa-regular fa-circle-check text-success mb-4 sizeicon"></i>
+          <h1 class="mb- fw-bold">congratulation</h1>
+          <h2 class="fs-5 mb-5 text-success">"Sing Up"</h2>
+          <button id="btn" class="btn btn-outline-primary">Logain</button>
+        </div>
+      </div>
+      <div
+        class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="sign shadow d-flex flex-column align-items-center">
+          <h1 class=" pt-1 mt-3 mb-0 pb-0">SIGN IN</h1>
+          <p class="fw-lighter pt-0 mt-0">Lorem ipsum, dolor sit amet </p>
+          <div id="reEmail" class="text-danger text-center d-none">
+            <p class="">" This Email has already been registered"</p>
+          </div>
+          <div id="rongSign" class="text-danger text-center d-none">
+            <p class="">" Please Fill out the required"</p>
+          </div>
+          <input
+            id="inputeSignName"
+            placeholder="Enter Your name"
+            class="w-75 mb-3 mt-3 form-control"
+            type="text" />
+          <div class="size-alert text-danger d-none">
+            <p class="">
+              <i class="fa-solid fa-exclamation me-1"></i> " you must write like
+              "ahmed_ali"
+            </p>
+          </div>
+          <input
+            id="inputeSignEmail"
+            placeholder="Enter Your Email"
+            class="w-75 mb-3 form-control"
+            type="email" />
+          <div class="size-alert-email text-danger d-none">
+            <p class="">
+              <i class="fa-solid fa-exclamation me-1"></i>"you must write like
+              "ahmedali02@gmail.com"
+            </p>
+          </div>
+          <input
+            id="inputeSignPass"
+            placeholder="Enter Password"
+            class="w-75 mb-3 form-control"
+            type="password" />
+          <div class="size-alert text-danger d-none">
+            <p class="">
+              <i class="fa-solid fa-exclamation me-1"></i>"you can not
+              use(@,#,$,%,^,&)
+            </p>
+          </div>
+          <input
+            id="inputeSignConfirm"
+            placeholder="Confirm Password"
+            class="w-75 mb-3 form-control"
+            type="password" />
+          <div class="size-alert text-danger d-none">
+            <p class="">
+              <i class="fa-solid fa-exclamation me-1"></i>The password not match
+            </p>
+          </div>
+          <button id="btnSign" class="btn btn-primary w-75">Sign in</button>
+          <p class="text-center">
+            if you have an account?
+            <a class="text-decoration-none" href="index.html"> Logain </a>
+          </p>
+        </div>
+      </div>
+    </main>
+   
+
+    <script src="js/sign.js"></script>
+  </body>
+</html>

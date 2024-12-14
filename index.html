@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="icon/all.min.css" />
+    <link rel="stylesheet" href="bt/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div
+        class="container ps-0 mt-lg-5 shadow d-flex flex-column flex-lg-row justify-content-center align-items-center">
+        <div class="row p-5 home leftSite">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <h1 class="fs-6 text-center pt-5 pb-0 mb-3 fw-lighter text-light">
+                "welcome"
+              </h1>
+              <h2 class="fs-1 pt-0 mb-3 text-light">Smart Login System</h2>
+              <i class="fa-solid fs-1 text-light fa-right-to-bracket"></i>
+              <p class="text-light mt">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Laborum, odit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row p-3 home ms-3 flex-column align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <h1 class="mb-4 fs-4 text-center">Logain To your Account</h1>
+            <div id="rongSign" class="text-danger text-center d-none">
+              <p class="">" Please Fill out the required"</p>
+            </div>
+            <input
+              id="inputeLogainEmail"
+              placeholder="Enter your E mail"
+              type="text"
+              class="w-100 my-2 rounded-1 px-2" />
+
+            <input
+              id="inputeLogainPass"
+              placeholder="Enter your Password"
+              type="password"
+              class="w-100 my-2 rounded-1" />
+            <a class="text-decoration-none" href="forget-pass.html"
+              ><p class="text-center fw-lighter">forget Password</p></a
+            >
+
+            <h1
+              id="logainError"
+              class="text-danger fs-6 text-center mb-5 d-none">
+              incorrect email or password
+            </h1>
+            <button id="btnLogain" class="btn btn-outline-primary w-100">
+              Logain
+            </button>
+            <p class="text-center">
+              Don’t have an account?
+              <span
+                ><a class="text-decoration-none" href="sign.html"
+                  >Sign Up</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/index.js"  type="module"></script>
+  </body>
+</html>
